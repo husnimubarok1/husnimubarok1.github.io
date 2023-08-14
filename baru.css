@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .header {
     background-color: rgb(40, 77, 99);
     color: white;
@@ -47,6 +50,7 @@
 .jarak {
     padding-left: 30px;
     padding-bottom: 30px;
+    padding-top: 500px;
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
