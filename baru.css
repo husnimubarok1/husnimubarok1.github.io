@@ -11,6 +11,7 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .navbar a {
     color: white;
@@ -27,7 +28,7 @@ html {
 }
 
 .bio img {
-    width: 400px;
+    width: 150px;
     padding-left: 30px;
 }
 
@@ -50,7 +51,7 @@ html {
 .jarak {
     padding-left: 30px;
     padding-bottom: 30px;
-    padding-top: 500px;
+    padding-top: 50px;
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
