@@ -15,7 +15,6 @@ body {
     margin: 15px auto;
 }
 
-
 .header {
     display: flex;
     justify-content: space-around;
@@ -50,17 +49,17 @@ body {
 }
 
 .bio {
-    display: flex;
-    justify-content: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-left: 30px;
     gap: 10px;
     margin-top: 10px;
     padding-top: 20px;
 }
 
 
-.bio {
-    font-family: 'Open Sans', sans-serif;
-    color: white;
+.bio p {
+    
 }
 
 
