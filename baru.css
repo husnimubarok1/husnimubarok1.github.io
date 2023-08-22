@@ -1,17 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
+
 body {
-    max-width: 800px;
+    width: 100%;
     margin: 15px auto;
 }
-.header {
-    background-color: rgb(40, 77, 99);
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-}
+
 
 .header {
     display: flex;
@@ -19,6 +22,10 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding: 15px;
+    
+    background-color: rgb(40, 77, 99);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 .navbar a {
     display: flex;
@@ -33,6 +40,7 @@ body {
 }
 
 .main {
+    
     background-color: rgb(33, 126, 180);
 }
 
