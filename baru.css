@@ -1,5 +1,11 @@
 html {
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
+}
+body {
+    max-width: 800px;
+    margin: 15px auto;
 }
 .header {
     background-color: rgb(40, 77, 99);
@@ -12,6 +18,7 @@ html {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding: 15px;
 }
 .navbar a {
     display: flex;
@@ -53,7 +60,7 @@ html {
 .jarak {
     padding-left: 30px;
     padding-bottom: 30px;
-    padding-top: 50px;
+    padding-top: 15px;
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
