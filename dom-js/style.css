@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right top, #0F3D76, #8D379E, #F13484, #FF605D, #FEA959, #FEA959, #FEE27A);
+}
+
+.container {
+    width: 400px;
+    background: rgba(0, 0, 0, 0.253);
+    box-shadow: 0 0 5px black;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 20px 50px 40px;
+}
+
+.container h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: rgba(255, 0, 0, 0);
+    margin: 40px 0;
+}
+
+.input-box label {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.input-box input {
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    height: 80%;
+    background: transparent;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(50%);
+    font-size: 20px;
+}
+
+.input-box input::placeholder {
+    color: white;
+}
+
+.btn {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: 0.5s;
+    opacity: 0.5;
+    
+}
+
+.btn-Git:hover, .btn-Fb:hover, .btn-Ggl:hover {
+    transition: 0.5s;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.btn-Git, .btn-Fb, .btn-Ggl {
+    color: white;
+    font-size: 15px;
+    width: 30%;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.sosmed {
+    margin-top: 20px;
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
