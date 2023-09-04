@@ -9,33 +9,34 @@
 </head>
 <body>
     <div class="container">
-        <form action="">
+        <form action="/home/">
             <h1>Login</h1>
             <div class="sosmed">            
-            <button type="submit" class="btn-Git"><i class='bx bxl-github'></i> Github</button>
+            <button onclick="" class="btn-Git"><i class='bx bxl-github'></i> Github</button>
             
-            <button type="submit" class="btn-Fb"><i class='bx bxl-gitlab'></i></i> Gitlab</button>
+            <button onclick="" class="btn-Fb"><i class='bx bxl-gitlab'></i></i> Gitlab</button>
             
-            <button type="submit" class="btn-Ggl"><i class='bx bxl-google'></i> Google</button>
+            <button onclick="" class="btn-Ggl"><i class='bx bxl-google'></i> Google</button>
             </div>
             <p>OR</p>
             
             <div class="em-pass">
                 <div class="input-box">
                     <label for="">Email</label>
-                    <input type="text" placeholder="your@email.com" required>
+                    <input type="email" placeholder="your@email.com" required>
                     <i class='bx bx-envelope'></i>
                 </div>
 
                 <div class="input-box">
                     <label for="">Password</label>
-                    <input type="password" placeholder="your password" required>
-                    <i class='bx bxs-lock'></i>
+                    <input id="password" type="password" placeholder="your password" required>
+                    <button type="button" onclick="passToText()" onmouseout="oriText()"><i class='bx bxs-lock'></i></button>
                 </div>
             </div>
             <button type="submit" class="btn">Login</button> <br>
             
         </form>
-    </div>     
+    </div> 
+    <script src="script.js"></script>    
 </body>
 </html>

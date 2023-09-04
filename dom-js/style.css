@@ -56,7 +56,7 @@ p {
     height: 80%;
     background: transparent;
     outline: none;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 50px;
     padding: 20px 45px 20px 20px;
 }
@@ -69,12 +69,22 @@ p {
     font-size: 20px;
 }
 
-.input-box input::placeholder {
+.input-box button {
     color: white;
+    cursor: pointer;
+}
+
+.input-box button:hover {
+    transition: 0.3s;
+    color: rgb(136, 136, 136);
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.308);
 }
 
 .btn {
-    color: rgb(0, 0, 0);
+    color: rgb(180, 7, 7);
     font-size: 18px;
     width: 100%;
     height: 40px;
