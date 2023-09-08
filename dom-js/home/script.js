@@ -32,3 +32,7 @@ function transparansi() {
     document.getElementById('box').style.opacity = `${alpa.innerHTML}`
     
 }
+
+function pindahHal() {
+    window.location.href="/login"
+}

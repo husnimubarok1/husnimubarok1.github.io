@@ -53,14 +53,17 @@ body {
     border-radius: 10px;
 }
 
-.btn-back {
+/* .btn-back {
     display: flex;
-    background-color: rgba(255, 0, 0, 0);
-}
+    background-color: rgba(255, 0, 0, 0.719);
+} */
 
 .back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    width: 120px;
+    width: 125px;
     height: 30px;
     border-radius: 5px;
     border: 1px solid white;
@@ -71,4 +74,17 @@ body {
 .back:hover {
     background-color:red;
     transition: 0.5s;
+}
+
+.back i {
+    font-size: 15px;
+    left: 1px;
+    bottom: 4.5px;
+    
+}
+
+.back:hover i {
+    transition: 0.3s;
+    transform: translateX(-5px);
+    
 }
