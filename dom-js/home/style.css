@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: linear-gradient(to right top, #582f0e, #7f4f24, #936639, #a68a64, #b6ad90, #c2c5aa, #a4ac86, #656d4a, #414833, #333d29);
+    background-image: linear-gradient(to right top, #0F3D76, #8D379E, #F13484, #FF605D, #FEA959, #FEA959, #FEE27A);
 }
 
 .container {
@@ -51,4 +51,24 @@ body {
     padding: 10px;
     background: rgb(255, 255, 255);
     border-radius: 10px;
+}
+
+.btn-back {
+    display: flex;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.back {
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.back:hover {
+    background-color:red;
+    transition: 0.5s;
 }

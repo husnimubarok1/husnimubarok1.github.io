@@ -12,27 +12,38 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-image: linear-gradient(to right top, #0F3D76, #8D379E, #F13484, #FF605D, #FEA959, #FEA959, #FEE27A);
+    height: 100vh;
+    background-image: url(BG.png);
 }
 
 .container {
     width: 400px;
-    background: rgba(0, 0, 0, 0.253);
-    box-shadow: 0 0 5px black;
+    background: rgba(29, 27, 27, 0.253);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.253);
     border: none;
+    backdrop-filter:blur(10px);
     color: white;
     border-radius: 20px;
     padding: 20px 50px 40px;
 }
 
-.container h1 {
-    font-size: 36px;
-    text-align: center;
+.box-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 20px 40px;
 }
 
-p {
-    margin-top: 20px;
+.line {
+    margin-top: 12px;
+    justify-items: center;
+    width: 120px;
+    height: 0.5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container h1 {
+    font-size: 36px;
     text-align: center;
 }
 
@@ -84,7 +95,7 @@ p {
 }
 
 .btn {
-    color: rgb(180, 7, 7);
+    color: rgb(0, 0, 0);
     font-size: 18px;
     width: 100%;
     height: 40px;
